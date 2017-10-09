@@ -1,4 +1,4 @@
-#include "IMMailWriteWidget.h"
+﻿#include "IMMailWriteWidget.h"
 
 #include <QCloseEvent>
 #include <QColorDialog>

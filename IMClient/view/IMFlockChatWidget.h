@@ -1,9 +1,10 @@
-#ifndef IMFLOCKCHATWIDGET_H
+﻿#ifndef IMFLOCKCHATWIDGET_H
 #define IMFLOCKCHATWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
 #include <QMap>
+#include "stable.h"
 
 class QComboBox;
 class QFontComboBox;

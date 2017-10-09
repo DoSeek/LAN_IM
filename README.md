@@ -1,3 +1,4 @@
+[Creator: siyueshiqi/LAN_IM]
 LAN instant messaging system mainly uses Qt technology and QtCreator development tool in this article. As a kind of C++ GUI application development framework for cross-platform, Qt is very popular in the Linux. Qt technology has become increasingly mature, and also got great performance. In addition, the system also involves Socket, MySQL, MVC, V4L2, FFmpeg and other related theories and technologies.
 The LAN instant messaging system mainly achieved registration, login, friend management, instant messaging, group chat, message management, mail transfer, file transfer, shared space and so on. After a simple registration, users can log into the system. Users can add friends, groups and discussion groups to communicate with other online users. What's more, the server and clients will store message records in the files or databases by themselves, so users can manage local records and network records at any time. Of course, file and mail transfer also be realized in this system. Besides that, Users and groups have their unique shared spaces, users can access friends' spaces, members of the group can access the space of the group, and share files with other users in the space.(The video module has been deleted.)
 
@@ -13,3 +14,6 @@ If you meet some problems which you can not solve, when you run this project. Yo
 
 请注意这个项目是用QT4开发，不是QT5。数据是MYSQL。并且界面是纯QT代码写的，没有用QTCreator的工具去拖拽。
 虽然已经不再维护这个项目，但是如果运行的时候有问题，可以加我QQ(416470485)，如果有时间，我会帮忙解决，备注请写：LAN_IM。邮箱：frazq10@163.com.
+
+[Forker: DoSeek/LAN_IM]
+Change Qt4 to Qt5 for this Project.

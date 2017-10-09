@@ -1,4 +1,4 @@
-#ifndef IMMAILCTRL_H
+﻿#ifndef IMMAILCTRL_H
 #define IMMAILCTRL_H
 
 #include <QObject>
@@ -31,12 +31,16 @@ signals:
 public slots:
     // 请求发送邮件
     void requestSendMail(const MailInformation &);
+
     // 请求获取收件箱邮件
     void requestGetInMails();
+
     // 请求获取发件箱邮件
     void requestGetOutMails();
+
     // 请求删除邮件
     void requestDeleteMail(const MailInformation & mail);
+
     // 请求修改邮件为已读
     void requestSetMailRead(const MailInformation & mail);
 

@@ -1,4 +1,4 @@
-#ifndef IMTOOLBOX_H
+﻿#ifndef IMTOOLBOX_H
 #define IMTOOLBOX_H
 
 #include <QWidget>

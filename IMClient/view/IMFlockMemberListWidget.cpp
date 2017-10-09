@@ -1,4 +1,4 @@
-#include "IMFlockMemberListWidget.h"
+﻿#include "IMFlockMemberListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 

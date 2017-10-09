@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMServerWindow.h
 Author： jet.F.R
 Date： 2014.3.10
@@ -8,6 +8,11 @@ Changes：
 
 #ifndef IMSERVERWINDOW_H
 #define IMSERVERWINDOW_H
+
+// Coding: UTF-8(BOM)
+#if ((_MSC_VER) && (_MSC_VER) >=1600)
+    #pragma execution_character_set("utf-8")
+#endif
 
 #include <QWidget>
 

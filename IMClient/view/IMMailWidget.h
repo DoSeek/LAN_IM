@@ -1,4 +1,4 @@
-#ifndef IMMAILWIDGET_H
+﻿#ifndef IMMAILWIDGET_H
 #define IMMAILWIDGET_H
 
 #include <QWidget>

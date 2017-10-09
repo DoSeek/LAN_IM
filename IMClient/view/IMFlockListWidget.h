@@ -1,4 +1,4 @@
-#ifndef IMFLOCKLISTWIDGET_H
+﻿#ifndef IMFLOCKLISTWIDGET_H
 #define IMFLOCKLISTWIDGET_H
 
 #include <QWidget>

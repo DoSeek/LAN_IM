@@ -1,4 +1,4 @@
-#include "IMSearchListWidget.h"
+﻿#include "IMSearchListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 #include <QMenu>

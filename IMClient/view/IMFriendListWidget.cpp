@@ -1,4 +1,4 @@
-#include "IMFriendListWidget.h"
+﻿#include "IMFriendListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 #include <QDebug>

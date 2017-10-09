@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMConstant.h
 Author： jet.F.R
 Date： 2014.3.10
@@ -16,6 +16,7 @@ Changes：
 #include <QVector>
 #include <QString>
 #include <QObject>
+
 class IMClientSocketCtrl;
 
 static const QString GROUP_NAME_DEFAULT = QString(QObject::tr("New Friends"));

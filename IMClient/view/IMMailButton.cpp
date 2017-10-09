@@ -1,4 +1,4 @@
-#include "IMMailButton.h"
+﻿#include "IMMailButton.h"
 #include <QLabel>
 #include <QCheckBox>
 #include <QHBoxLayout>

@@ -1,8 +1,10 @@
-#ifndef IMFLOCKINFORMATIONWIDGET_H
+﻿#ifndef IMFLOCKINFORMATIONWIDGET_H
 #define IMFLOCKINFORMATIONWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
+
 class QPushButton;
 class QLabel;
 class QLineEdit;

@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMEncryption.h
 Author： jet.F.R
 Date： 2014.3.17
@@ -34,8 +34,9 @@ private:
     IMEncryption(const  IMEncryption &);//禁止拷贝构造函数。
     IMEncryption & operator =(const  IMEncryption &);//禁止赋值拷贝函数。
 
-    QReadWriteLock m_internalMutex;//函数使用的读写锁。
-    static  QMutex s_mutex;//实例互斥锁。
+    QReadWriteLock m_internalMutex;//函数使用的读写锁
+
+    static  QMutex s_mutex;//实例互斥锁
     static  QAtomicPointer<IMEncryption> s_instance; //使用原子指针,默认初始化为0
 };
 

@@ -1,4 +1,4 @@
-#include "IMDiscussionChatWidget.h"
+﻿#include "IMDiscussionChatWidget.h"
 #include <QLabel>
 #include <qdebug.h>
 #include <QHBoxLayout>

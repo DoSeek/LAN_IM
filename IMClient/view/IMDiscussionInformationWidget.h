@@ -1,8 +1,10 @@
-#ifndef IMDISCUSSIONINFORMATIONWIDGET_H
+﻿#ifndef IMDISCUSSIONINFORMATIONWIDGET_H
 #define IMDISCUSSIONINFORMATIONWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
+
 class QPushButton;
 class QLabel;
 class QLineEdit;

@@ -1,8 +1,9 @@
-#ifndef IMFLOCKMEMBERBUTTON_H
+﻿#ifndef IMFLOCKMEMBERBUTTON_H
 #define IMFLOCKMEMBERBUTTON_H
 
 #include <QPushButton>
 #include "model/IMConstant.h"
+#include "stable.h"
 
 class QMenu;
 class QLabel;

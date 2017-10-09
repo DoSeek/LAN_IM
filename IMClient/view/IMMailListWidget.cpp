@@ -1,4 +1,4 @@
-#include "IMMailListWidget.h"
+﻿#include "IMMailListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 

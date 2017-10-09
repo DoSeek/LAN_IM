@@ -1,8 +1,9 @@
-#ifndef IMINFORMATIONWIDGET_H
+﻿#ifndef IMINFORMATIONWIDGET_H
 #define IMINFORMATIONWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
 
 class QPushButton;
 class QLabel;

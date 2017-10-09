@@ -1,9 +1,9 @@
-#include "CustomCalendar.h"
+﻿#include "CustomCalendar.h"
 
-#include <QtGui/QKeyEvent>
-#include <QtGui/QPainter>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
+#include <QKeyEvent>
+#include <QPainter>
+#include <QHeaderView>
+#include <QLabel>
 //#include <QTextCharFormat>
 
 

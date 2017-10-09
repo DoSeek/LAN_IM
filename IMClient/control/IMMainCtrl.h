@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMMainCtrl.h
 Author： jet.F.R
 Date： 2014.3.26
@@ -12,7 +12,7 @@ Changes：
 #include <QMultiMap>
 #include "model/IMConstant.h"
 #include <QVector>
-
+#include "stable.h"
 
 class IMTcpSocket;
 

@@ -1,4 +1,4 @@
-#include "IMLocalMessageWidget.h"
+﻿#include "IMLocalMessageWidget.h"
 #include "view/IMMainWidget.h"
 #include <QDebug>
 #include <QModelIndex>

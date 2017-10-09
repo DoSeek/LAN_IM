@@ -1,4 +1,4 @@
-#include "IMInformationWidget.h"
+﻿#include "IMInformationWidget.h"
 #include "CustomLineEdit.h"
 #include "IMMainWidget.h"
 #include <QPushButton>

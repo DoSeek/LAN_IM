@@ -1,4 +1,4 @@
-#include "IMDiscussionButton.h"
+﻿#include "IMDiscussionButton.h"
 #include "model/IMConstant.h"
 #include <QMenu>
 #include <QBoxLayout>

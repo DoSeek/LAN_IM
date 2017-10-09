@@ -1,4 +1,4 @@
-#include "IMFileReceiverWidget.h"
+﻿#include "IMFileReceiverWidget.h"
 #include <QProgressBar>
 #include <QLabel>
 #include <QPushButton>

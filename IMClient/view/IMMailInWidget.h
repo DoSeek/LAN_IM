@@ -1,4 +1,4 @@
-#ifndef IMMAILINWIDGET_H
+﻿#ifndef IMMAILINWIDGET_H
 #define IMMAILINWIDGET_H
 
 //#include <QWidget>

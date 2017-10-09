@@ -1,4 +1,4 @@
-#ifndef IMFRIENDLISTWIDGET_H
+﻿#ifndef IMFRIENDLISTWIDGET_H
 #define IMFRIENDLISTWIDGET_H
 
 #include <QWidget>

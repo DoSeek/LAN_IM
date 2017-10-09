@@ -1,4 +1,4 @@
-#ifndef IMLINKFRIENDBUTTON_H
+﻿#ifndef IMLINKFRIENDBUTTON_H
 #define IMLINKFRIENDBUTTON_H
 
 #include <QPushButton>

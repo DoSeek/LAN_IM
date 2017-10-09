@@ -1,4 +1,4 @@
-#ifndef IMSEARCHLISTWIDGET_H
+﻿#ifndef IMSEARCHLISTWIDGET_H
 #define IMSEARCHLISTWIDGET_H
 
 #include <QWidget>

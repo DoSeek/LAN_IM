@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMChatWidget.h
 Author： jet.F.R
 Date： 2014.3.26
@@ -32,6 +32,8 @@ Changes：
 #include "IMFileSenderWidget.h"
 #include "IMFileReceiverWidget.h"
 #include "control/IMClientFileCtrl.h"
+#include "stable.h"
+
 // mark public:--------------------------------------------------------------
 
 IMChatWidget::IMChatWidget(const ChatInformation &chatInf, QWidget *parent) :

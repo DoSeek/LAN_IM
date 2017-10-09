@@ -1,4 +1,4 @@
-#ifndef IMDATABASECTRL_H
+﻿#ifndef IMDATABASECTRL_H
 #define IMDATABASECTRL_H
 
 #include <QObject>
@@ -24,6 +24,7 @@ public:
     /************消息管理*********************/
     // 存储历史记录
     bool addHistoryMessage(const TalkMessage &);
+
     // 获取某日的消息记录
     bool searchHistoryMessage(const QString &myID , const QString &friendID,
                               const QDate &date, QVector<TalkMessage> &mesVec);

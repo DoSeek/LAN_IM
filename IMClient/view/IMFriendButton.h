@@ -1,8 +1,9 @@
-#ifndef IMFRIENDBUTTON_H
+﻿#ifndef IMFRIENDBUTTON_H
 #define IMFRIENDBUTTON_H
 
 #include <QPushButton>
 #include "model/IMConstant.h"
+#include "stable.h"
 
 class QMenu;
 class IMChatWidget;

@@ -1,4 +1,4 @@
-#include "IMDiscussionMemberListWidget.h"
+﻿#include "IMDiscussionMemberListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 

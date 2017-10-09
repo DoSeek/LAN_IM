@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMRegisterCtrl.cpp
 Author： jet.F.R
 Date： 2014.3.17
@@ -8,6 +8,8 @@ Changes：
 #include "IMRegisterCtrl.h"
 #include "model/IMTcpSocket.h"
 #include "IMClientMessageCtrl.h"
+#include "stable.h"
+
 
 #include <QMessageBox>
 

@@ -1,4 +1,4 @@
-#include "IMFlockInformationWidget.h"
+﻿#include "IMFlockInformationWidget.h"
 #include "IMMainWidget.h"
 #include <QPushButton>
 #include <QLabel>

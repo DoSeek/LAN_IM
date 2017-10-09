@@ -1,4 +1,4 @@
-#include "IMMailInformationWidget.h"
+﻿#include "IMMailInformationWidget.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QTextCharFormat>

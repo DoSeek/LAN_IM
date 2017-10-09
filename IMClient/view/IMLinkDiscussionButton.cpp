@@ -1,4 +1,4 @@
-#include "IMLinkDiscussionButton.h"
+﻿#include "IMLinkDiscussionButton.h"
 #include <QLabel>
 #include "IMDiscussionButton.h"
 

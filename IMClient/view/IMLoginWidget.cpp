@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMLoginWidget.cpp
 Author： jet.F.R
 Date： 2014.3.10
@@ -19,6 +19,8 @@ Changes：
 #include <QTimerEvent>
 #include <QHostAddress>
 #include <QInputDialog>
+// Mark: seeking 解决time无定义问题
+#include <ctime>
 
 #include "IMMainWidget.h"
 #include "view/IMClickLabel.h"
@@ -28,6 +30,7 @@ Changes：
 #include "control/IMClientFileCtrl.h"
 #include "control/IMLoginCtrl.h"
 #include "model/IMEncryption.h"
+
 static const QString AUTO_LOGIN_FILE_NAME = "resource/config/auto_login.im";
 
 // mark public:--------------------------------------------------------------
@@ -36,7 +39,7 @@ IMLoginWidget::IMLoginWidget(QWidget *parent)
 {
     initIMLoginWidget();
     linkSignalWithSlot();
-    setWindowTitle(tr("登录IM"));
+    setWindowTitle("登录IM"/*tr("登录IM")*/);
 }
 
 IMLoginWidget::~IMLoginWidget()

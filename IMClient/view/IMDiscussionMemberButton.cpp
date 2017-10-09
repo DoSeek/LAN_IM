@@ -1,4 +1,4 @@
-#include "IMDiscussionMemberButton.h"
+﻿#include "IMDiscussionMemberButton.h"
 #include <QMenu>
 #include <QLabel>
 #include "IMMainWidget.h"

@@ -1,9 +1,10 @@
-#ifndef IMFILERECEIVERWIDGET_H
+﻿#ifndef IMFILERECEIVERWIDGET_H
 #define IMFILERECEIVERWIDGET_H
 
 #include <QWidget>
 #include <QHostAddress>
 #include <QTime>
+#include "stable.h"
 
 class QProgressBar;
 class QLabel;

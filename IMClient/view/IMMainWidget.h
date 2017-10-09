@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMMainWidget.h
 Author： jet.F.R
 Date： 2014.3.14
@@ -14,6 +14,7 @@ Changes：
 #include "model/IMConstant.h"
 #include "control/IMDatabaseCtrl.h"
 //#include "model/IMEncryption.h"
+#include "stable.h"
 
 class IMMainCtrl;
 class QListWidget;

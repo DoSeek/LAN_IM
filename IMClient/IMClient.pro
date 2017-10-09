@@ -4,8 +4,15 @@
 
 QT       += core gui network sql
 
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 TEMPLATE = app
-TARGET = 
+TARGET = IMClient
+
+CONFIG   += c++11
+
+PRECOMPILED_HEADER = stable.h
+
 DEPENDPATH += . \
               control \
               model \
@@ -22,7 +29,7 @@ HEADERS += control/IMClientFileCtrl.h \
            control/IMMailCtrl.h \
            control/IMMainCtrl.h \
            control/IMRegisterCtrl.h \
-           control/IMVideoCtrl.h \
+#           control/IMVideoCtrl.h \
            model/IMConstant.h \
            model/IMEncryption.h \
            model/IMTcpSocket.h \
@@ -73,7 +80,8 @@ HEADERS += control/IMClientFileCtrl.h \
            view/IMNetWorkMessageWidget.h \
            view/IMRegisterWidget.h \
            view/IMSearchListWidget.h \
-           view/IMToolBox.h 
+           view/IMToolBox.h \ 
+    stable.h
 
 SOURCES += main.cpp \
            control/IMClientFileCtrl.cpp \
@@ -83,7 +91,7 @@ SOURCES += main.cpp \
            control/IMMailCtrl.cpp \
            control/IMMainCtrl.cpp \
            control/IMRegisterCtrl.cpp \
-           control/IMVideoCtrl.cpp \
+#           control/IMVideoCtrl.cpp \
            model/IMEncryption.cpp \
            model/IMTcpSocket.cpp \
            model/IMUser.cpp \

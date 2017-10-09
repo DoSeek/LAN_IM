@@ -1,8 +1,9 @@
-#ifndef IMFILESENDERWIDGET_H
+﻿#ifndef IMFILESENDERWIDGET_H
 #define IMFILESENDERWIDGET_H
 
 #include <QWidget>
 #include <QTime>
+#include "stable.h"
 
 class QProgressBar;
 class QLabel;

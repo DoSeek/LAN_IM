@@ -1,4 +1,4 @@
-#include "IMNetWorkMessageWidget.h"
+﻿#include "IMNetWorkMessageWidget.h"
 #include <QDebug>
 #include <QModelIndex>
 #include <QListView>

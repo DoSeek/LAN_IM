@@ -1,4 +1,4 @@
-#ifndef IMMAILOUTWIDGET_H
+﻿#ifndef IMMAILOUTWIDGET_H
 #define IMMAILOUTWIDGET_H
 
 #include "IMMailListWidget.h"

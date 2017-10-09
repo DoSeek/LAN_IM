@@ -1,8 +1,9 @@
-#ifndef IMMESSAGEWIDGET_H
+﻿#ifndef IMMESSAGEWIDGET_H
 #define IMMESSAGEWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
 
 class QLabel;
 class QToolButton;

@@ -1,4 +1,4 @@
-#ifndef IMLINKFLOCKBUTTON_H
+﻿#ifndef IMLINKFLOCKBUTTON_H
 #define IMLINKFLOCKBUTTON_H
 
 #include "IMLinkButton.h"

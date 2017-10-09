@@ -1,4 +1,4 @@
-#include "IMToolBox.h"
+﻿#include "IMToolBox.h"
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QMouseEvent>

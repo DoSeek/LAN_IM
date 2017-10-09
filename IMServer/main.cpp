@@ -1,5 +1,5 @@
-#include "view/IMServerWindow.h"
-#include <QtGui/QApplication>
+﻿#include "view/IMServerWindow.h"
+#include <QApplication>
 #include <QtCore/QTextCodec>
 #include <QSystemSemaphore>
 #include <QSharedMemory>
@@ -9,9 +9,9 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     // 以下部分解决中文乱码
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("utf-8"));
-    QTextCodec::setCodecForLocale(QTextCodec::codecForName("utf-8"));
-    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("utf-8"));
+    //QTextCodec::setCodecForTr(QTextCodec::codecForName("utf-8"));
+    //QTextCodec::setCodecForLocale(QTextCodec::codecForName("utf-8"));
+    //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("utf-8"));
     // 以上部分解决中文乱码
 
 //    //确保只运行一次

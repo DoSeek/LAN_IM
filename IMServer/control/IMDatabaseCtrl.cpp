@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMDatabaseCtrl.cpp
 Author： jet.F.R
 Date： 2014.3.12
@@ -311,15 +311,18 @@ bool IMDatabaseCtrl::createConnection()
     }
     else
     {// 如果没有，就添加
-        *m_db = QSqlDatabase::addDatabase("QMYSQL", "serverIMDB");
+        //*m_db = QSqlDatabase::addDatabase("QMYSQL", "serverIMDB");
+        *m_db = QSqlDatabase::addDatabase("QMYSQL");
         m_db->setDatabaseName("serverIMDB");
     }
 
     m_db->setUserName("root");
-    m_db->setPassword("123456");
+    m_db->setPassword("");
     m_db->setHostName(QLatin1String("localhost"));
     if (!m_db->open())
     {
+        QSqlError sqlError = m_db->lastError();
+        QString errorString = sqlError.text();
         return false;
     }
     return true;
@@ -528,6 +531,8 @@ Description: 通过id查询好友简易信息
 int IMDatabaseCtrl::searchFriendSimpleInformationByID(const QString &id,
                                                         FriendInformation &friInf)
 {
+    // Mark: 作者未实现，并且项目中没有调用此函数
+    return 0;
 }
 
 /*************************************************

@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMLoginCtrl.h
 Author： jet.F.R
 Date： 2014.3.10
@@ -11,6 +11,7 @@ Changes：
 
 #include <QObject>
 #include "model/IMTcpSocket.h"
+#include "stable.h"
 
 class IMTcpSocket;
 

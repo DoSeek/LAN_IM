@@ -1,8 +1,9 @@
-#ifndef IMLOCALMESSAGEWIDGET_H
+﻿#ifndef IMLOCALMESSAGEWIDGET_H
 #define IMLOCALMESSAGEWIDGET_H
 
 #include <QWidget>
 #include "IMMessageWidget.h"
+#include "stable.h"
 
 class IMMainWidget;
 

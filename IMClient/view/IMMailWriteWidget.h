@@ -1,8 +1,9 @@
-#ifndef IMMAILWRITEWIDGET_H
+﻿#ifndef IMMAILWRITEWIDGET_H
 #define IMMAILWRITEWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
 
 class QLineEdit;
 class QComboBox;

@@ -1,4 +1,4 @@
-#include "IMMessageManageWidget.h"
+﻿#include "IMMessageManageWidget.h"
 #include <QTabWidget>
 #include "IMLocalMessageWidget.h"
 #include "IMNetWorkMessageWidget.h"

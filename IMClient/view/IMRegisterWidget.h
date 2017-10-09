@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMRegisterWidget.h
 Author： jet.F.R
 Date： 2014.3.14
@@ -10,6 +10,8 @@ Changes：
 
 #include <QWidget>
 #include "model/IMConstant.h"
+#include "stable.h"
+
 class QPushButton;
 class QLabel;
 class QLineEdit;

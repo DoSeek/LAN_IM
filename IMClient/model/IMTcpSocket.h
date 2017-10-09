@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMTcpSocket.h
 Author： jet.F.R
 Date： 2014.3.10
@@ -11,6 +11,7 @@ Changes：
 
 #include <QTcpSocket>
 #include "IMConstant.h"
+#include "stable.h"
 
 /*************************************************
 Class Name： IMTcpSocket

@@ -1,9 +1,10 @@
-#ifndef IMDISCUSSIONCHATWIDGET_H
+﻿#ifndef IMDISCUSSIONCHATWIDGET_H
 #define IMDISCUSSIONCHATWIDGET_H
 
 #include <QWidget>
 #include "model/IMConstant.h"
 #include <QMap>
+#include "stable.h"
 
 class QComboBox;
 class QFontComboBox;

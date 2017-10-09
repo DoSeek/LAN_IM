@@ -1,7 +1,8 @@
-#ifndef IMNETWORKMESSAGEWIDGET_H
+﻿#ifndef IMNETWORKMESSAGEWIDGET_H
 #define IMNETWORKMESSAGEWIDGET_H
 
 #include "IMMessageWidget.h"
+#include "stable.h"
 
 class IMMainWidget;
 

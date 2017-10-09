@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMDatabaseCtrl.h
 Author： jet.F.R
 Date： 2014.3.12
@@ -10,6 +10,7 @@ Changes：
 
 #include <QObject>
 #include <QMap>
+#include <QSqlError>
 #include "model/IMConstant.h"
 
 class QSqlQuery;

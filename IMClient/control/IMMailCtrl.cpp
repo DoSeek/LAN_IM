@@ -1,4 +1,4 @@
-#include "IMMailCtrl.h"
+﻿#include "IMMailCtrl.h"
 
 #include <QStandardItemModel>
 #include <QTreeView>
@@ -9,6 +9,7 @@
 #include <QDebug>
 
 #include "model/IMTcpSocket.h"
+#include "stable.h"
 
 IMMailCtrl::IMMailCtrl(const QString & id, QObject *parent) :
     m_myID(id), QObject(parent)

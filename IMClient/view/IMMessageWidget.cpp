@@ -1,4 +1,4 @@
-#include "IMMessageWidget.h"
+﻿#include "IMMessageWidget.h"
 #include "CustomLineEdit.h"
 #include <QMessageBox>
 #include <QDateTime>

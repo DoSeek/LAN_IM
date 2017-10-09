@@ -1,4 +1,4 @@
-#ifndef IMMAILBUTTON_H
+﻿#ifndef IMMAILBUTTON_H
 #define IMMAILBUTTON_H
 
 #include <QPushButton>

@@ -1,21 +1,21 @@
-#include "CalendarDialog.h"
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QPushButton>
-#include <QtGui/QKeyEvent>
-#include <QtGui/QTextCharFormat>
-#include <QtGui/QComboBox>
-#include <QtGui/QPushButton>
-#include <QtGui/QToolButton>
-#include <QtGui/QLineEdit>
-#include <QtGui/QTextLine>
-#include <QtGui/QValidator>
+﻿#include "CalendarDialog.h"
+#include <QHBoxLayout>
+#include <QVBoxLayout>
+#include <QPushButton>
+#include <QKeyEvent>
+#include <QTextCharFormat>
+#include <QComboBox>
+#include <QPushButton>
+#include <QToolButton>
+#include <QLineEdit>
+#include <QTextLine>
+#include <QValidator>
 #include <QDebug>
-#include <QtGui/QHeaderView>
-#include <QtGui/QTableView>
-#include <QtGui/QLabel>
-#include <QtGui/QColor>
-#include <QtGui/QPainter>
+#include <QHeaderView>
+#include <QTableView>
+#include <QLabel>
+#include <QColor>
+#include <QPainter>
 #include <QRegExp>
 
 
@@ -262,12 +262,23 @@ void CalendarDialog::initDialog()
     m_customCalendar->setFixedSize(7 * WIDTH_OF_DATE,
                                    6 * HEIGHT_OF_DATE + HEIFHT_OF_WEEKNUMBER);
 
-    QTableView *table = qFindChild<QTableView *>(m_customCalendar);
+    //1./////////////////////////////////////////////////////////////
+    //QTableView *table = qFindChild<QTableView *>(m_customCalendar);  // Qt 不知道从哪个版本开始就废弃此函数，以findChild代替
+    // Mark: seeking 上一行代码修改为
+    m_customCalendar->setObjectName("m_customCalendar");
+    QTableView *table = findChild<QTableView *>("qt_calendar_calendarview"); //("m_customCalendar");
+    /////////////////////////////////////////////////////////////////
+
     QHeaderView *verticalHeader = table->verticalHeader();
     QHeaderView *horizontalHeader = table->horizontalHeader();
 
-    horizontalHeader->setResizeMode(QHeaderView::Fixed);
-    verticalHeader->setResizeMode(QHeaderView::Fixed);
+    //2./////////////////////////////////////////////////////////////
+    //horizontalHeader->setResizeMode(QHeaderView::Fixed);
+    //verticalHeader->setResizeMode(QHeaderView::Fixed);
+    // Mark: seeking 上面代码替换为
+    horizontalHeader->setSectionResizeMode(QHeaderView::Fixed);
+    verticalHeader->setSectionResizeMode(QHeaderView::Fixed);
+    ////////////////////////////////////////////////////////////////
 
     verticalHeader->resizeSection(0, HEIFHT_OF_WEEKNUMBER);
     horizontalHeader->resizeSection(0, WIDTH_OF_DATE);

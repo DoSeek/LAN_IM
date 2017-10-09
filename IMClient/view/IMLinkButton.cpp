@@ -1,4 +1,4 @@
-#include "IMLinkButton.h"
+﻿#include "IMLinkButton.h"
 #include <QMenu>
 #include <QBoxLayout>
 #include <QLabel>

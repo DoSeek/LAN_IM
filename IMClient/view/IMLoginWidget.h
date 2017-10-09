@@ -1,4 +1,4 @@
-/*********************************************
+﻿/*********************************************
 File Name： IMLoginWidget.h
 Author： jet.F.R
 Date： 2014.3.10
@@ -9,7 +9,12 @@ Changes：
 #ifndef IMLOGINWIDGET_H
 #define IMLOGINWIDGET_H
 
-#include <QtGui/QWidget>
+//  Coding: UTF-8(BOM)
+#if ((_MSC_VER) && (_MSC_VER) >=1600)
+    #pragma execution_character_set("utf-8")
+#endif
+
+#include <QWidget>
 
 class QPushButton;
 class QLabel;

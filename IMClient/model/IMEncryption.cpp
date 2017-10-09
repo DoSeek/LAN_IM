@@ -1,6 +1,6 @@
-#include "IMEncryption.h"
+﻿#include "IMEncryption.h"
 
-QMutex IMEncryption::s_mutex;//实例互斥锁。
+QMutex IMEncryption::s_mutex;   //实例互斥锁
 QAtomicPointer<IMEncryption> IMEncryption::s_instance = 0; //使用原子指针,默认初始化为0
 
 IMEncryption& IMEncryption::getInstace(void)

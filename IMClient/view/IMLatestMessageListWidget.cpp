@@ -1,4 +1,4 @@
-#include "IMLatestMessageListWidget.h"
+﻿#include "IMLatestMessageListWidget.h"
 #include <QVBoxLayout>
 #include <QScrollArea>
 #include <QMenu>

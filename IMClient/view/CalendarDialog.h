@@ -1,8 +1,8 @@
-#ifndef CALENDARDIALOG_H
+﻿#ifndef CALENDARDIALOG_H
 #define CALENDARDIALOG_H
 
 
-#include <QtGui/QDialog>
+#include <QDialog>
 #include "CustomLineEdit.h"
 #include "CustomCalendar.h"
 #include "CustomComboBox.h"

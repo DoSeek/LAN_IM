@@ -1,4 +1,4 @@
-#include "IMFlockChatWidget.h"
+﻿#include "IMFlockChatWidget.h"
 #include <QLabel>
 #include <qdebug.h>
 #include <QHBoxLayout>

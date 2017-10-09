@@ -1,8 +1,10 @@
-#ifndef CUSTOMCALENDAR_H
+﻿#ifndef CUSTOMCALENDAR_H
 #define CUSTOMCALENDAR_H
 
-#include <QtGui/QCalendarWidget>
-#include <QtGui/QTextCharFormat>
+#include "stable.h"
+
+#include <QCalendarWidget>
+#include <QTextCharFormat>
 
 /*************************************************
 Class Name： CustomCalendar
