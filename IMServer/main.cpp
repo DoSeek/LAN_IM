@@ -1,37 +1,39 @@
-﻿#include "view/IMServerWindow.h"
-#include <QApplication>
-#include <QtCore/QTextCodec>
-#include <QSystemSemaphore>
-#include <QSharedMemory>
-#include <QMessageBox>
+﻿#include <QCoreApplication>
+
+#include "stable.h"
+#include "TTcpServer.h"
+
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QCoreApplication a(argc, argv);
 
-    // 以下部分解决中文乱码
-    //QTextCodec::setCodecForTr(QTextCodec::codecForName("utf-8"));
-    //QTextCodec::setCodecForLocale(QTextCodec::codecForName("utf-8"));
-    //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("utf-8"));
-    // 以上部分解决中文乱码
+    // 启动服务核心
+    TTcpServer *server = new TTcpServer();
 
-//    //确保只运行一次
-//    QSystemSemaphore sema("IMServerKey",1,QSystemSemaphore::Open);
-//    //在临界区操作共享内存
-//    sema.acquire();
-//    QSharedMemory mem("IMServerObject");
+// 供带GUI模式的服务程序用
+//    connect(server, SIGNAL(haveNewID(QString)),\
+//            this, SLOT(insertIDData(QString)));
+//    connect(server, SIGNAL(haveNewAddress(QString)),\
+//            this, SLOT(insertAddressData(QString)));
 
-//    // 如果全局对象以存在则退出
-//    if (!mem.create(1))
-//    {
-//        QMessageBox::warning(NULL, "error",
-//            "A server has already been running.");
-//        sema.release();
-//        return 0;
-//    }
-//    sema.release();
+//    connect(server, SIGNAL(haveLeftID(QString)),\
+//            this, SLOT(deleteIDData(QString)));
+//    connect(server, SIGNAL(haveLeftAddress(QString)),\
+//            this, SLOT(deleteAddressData(QString)));
 
-    IMServerWindow w;
-    w.show();
-    
-    return a.exec();
+    if (!server->listen(QHostAddress::Any, 1234))
+    {
+        QString strErr(QObject::tr("critical: Satrting server listen fail, error string:: "));
+        strErr += server->errorString();
+        qDebug(strErr.toStdString().c_str());
+        exit(EXIT_FAILURE);
+    }
+
+    //m_databaseCtrl.initDatabase();
+
+
+    int nRet = a.exec();
+    delete server;
+
+    return nRet;
 }

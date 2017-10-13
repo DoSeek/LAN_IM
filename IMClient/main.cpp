@@ -1,9 +1,9 @@
 ﻿#include <QApplication>
-#include "view/IMLoginWidget.h"
+#include "TLoginWidget.h"
 #include <QTextCodec>
 #include <QDebug>
 
-#include "view/IMInformationWidget.h"
+#include "TInformationWidget.h"
 
 int main(int argc, char *argv[])
 {
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         w.onClickBtnLogin();
     }
 
-//    IMInformationWidget w;
+//    TInformationWidget w;
 //    w.setReadOnly(true, true);
 //    w.show();
     
